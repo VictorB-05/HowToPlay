@@ -133,7 +133,7 @@
   --bs-body-bg-rgb: 33, 37, 41;
   --bs-emphasis-color: #cdbdec;
   --bs-emphasis-color-rgb: 205, 189, 236;
-  --bs-secondary-color: rgba(205, 189, 236, 0.75);
+  --bs-secondary-color: rgba(205, 189, 236, 0.749);
   --bs-secondary-color-rgb: 205, 189, 236;
   --bs-secondary-rgb: 35, 5, 95;
   --bs-secondary-bg: #343a40;
@@ -3210,7 +3210,7 @@ textarea.form-control-lg {
 
 .btn-outline-secondary {
   --bs-btn-color: rgb(var(--bs-secondary-color-rgb));
-  --bs-btn-border-color: rgb(var(--bs-secondary-rgb));
+  --bs-btn-border-color: rgb(var(--bs-secondary-color-rgb));
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: rgb(var(--bs-secondary-rgb));
   --bs-btn-hover-border-color: rgb(var(--bs-secondary-rgb));
@@ -6109,11 +6109,10 @@ textarea.form-control-lg {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
   text-align: center;
   background: none;
   border: 0;
-  opacity: 0.5;
+  opacity: 0.7;
   transition: opacity 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -6125,7 +6124,6 @@ textarea.form-control-lg {
 .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #fff;
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
@@ -6142,19 +6140,19 @@ textarea.form-control-lg {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 2rem;
-  height: 2rem;
+  width: 20vw;
+  height: 20vw;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
 }
 
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e") /*rtl:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")*/;
+  background-image: url(../img/next.svg);
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") /*rtl:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e")*/;
+  background-image: url(../img/next1.svg);
 }
 
 .carousel-indicators {
@@ -6222,7 +6220,7 @@ textarea.form-control-lg {
 [data-bs-theme=dark] .carousel .carousel-control-prev-icon,
 [data-bs-theme=dark] .carousel .carousel-control-next-icon, [data-bs-theme=dark].carousel .carousel-control-prev-icon,
 [data-bs-theme=dark].carousel .carousel-control-next-icon {
-  filter: invert(1) grayscale(100);
+
 }
 [data-bs-theme=dark] .carousel .carousel-indicators [data-bs-target], [data-bs-theme=dark].carousel .carousel-indicators [data-bs-target] {
   background-color: #000;
