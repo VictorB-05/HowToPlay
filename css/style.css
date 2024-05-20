@@ -69,3 +69,42 @@ body {
         display: none;
     }
 }
+
+footer {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer h5 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #9D9DF2;
+    text-shadow: 1px 1px #4B4B9C;
+}
+
+footer p,
+footer a {
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #9D9DF2 !important; 
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    footer .row > div {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer .fab {
+        margin-right: 10px;
+    }
+}
+
+.icono{
+    height: 10vh;
+    width: auto;
+}
