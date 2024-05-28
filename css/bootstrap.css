@@ -6149,10 +6149,11 @@ textarea.form-control-lg {
 
 .carousel-control-prev-icon {
   background-image: url(../img/next.svg);
+  filter: none;
 }
 
 .carousel-control-next-icon {
-  background-image: url(../img/next1.svg);
+  background-image: url(../img/prev.svg);
 }
 
 .carousel-indicators {
