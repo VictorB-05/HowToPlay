@@ -2,11 +2,11 @@
     margin-top: 2em;
     margin-bottom: 2em;
 }
-.imgenes{
+.imagenes{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10vw;
+    border-radius: 2%;
     
 }
 .titulo{
@@ -140,12 +140,33 @@ footer {
     color: white; /* Color del texto */
     text-decoration: none; /* Sin subrayado */
     border-radius: 8px; /* Bordes redondeados */
-    font-family: 'Press Start 2P', cursive; /* Asegúrate de que la fuente coincida */
+    font-family: 'Press Start 2P', cursive; 
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
+    opacity: 0.7;
 }
 
 .styled-link:hover {
     background-color: #5a34cc; /* Color de fondo al pasar el ratón */
     color: #e0e0e0; /* Color del texto al pasar el ratón */
+    opacity: 1;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0.5em 0;
+    background-color: #7c4dff; /* Color de fondo similar a los cuadros morados */
+    color: white; /* Color del texto */
+    border-radius: 8em; /* Bordes redondeados */
+    font-family: "Karmatic Arcade",sans-serif; 
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    opacity: 0.7;
+}
+
+.button:hover {
+    background-color: #5a34cc; /* Color de fondo al pasar el ratón */
+    color: #e0e0e0; /* Color del texto al pasar el ratón */
+    opacity: 1;
 }
