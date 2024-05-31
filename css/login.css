@@ -4,23 +4,21 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #121212;
+    background-image: url(../img/FondoIcono.png);
+    background-position: center;
   }
 
   .login-container {
     width: 35vw;
     height: 50vh;
+    max-width: 400px;
     background-color: #4B3F92;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
-  .login-container input[type="email"],
-  .login-container input[type="password"] {
+  .form {
     width: 80%;
     padding: 10px;
     margin: 10px 0;
@@ -29,17 +27,17 @@ body, html {
     align-self:center;
   }
 
-  .login-container a {
+  .link {
     color: #ADD8E6;
     text-decoration: none;
     margin-top: 10px;
   }
 
-  .login-container a:hover {
+  .link:hover {
     text-decoration: underline;
   }
 
-  .login-container label {
+  .texto {
     color: #ffffff;
   }
  .error {
@@ -50,6 +48,7 @@ body, html {
     height: 0.9em;
   }
   form{
+    display: flexbox;
     padding-left: 2em;
     width: 100%;
   }
@@ -58,3 +57,4 @@ body, html {
     left: 0;
     top: 0;
   }
+  
